@@ -1,0 +1,6 @@
+BOUND: ', "
+EXP: BOUND, text, BOUND
+BLOCK: EXP, EXP, ...
+IF: EXP, [, BLOCK, ]
+REP: EXP, {, BLOCK, }
+STAT: EXP, :, EXP

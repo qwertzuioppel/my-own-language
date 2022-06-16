@@ -3,7 +3,7 @@ wich i don't have a name for yet. all the programms are written in python.
 
 the grammar of this language is like this: 
 
-an indicator: '"\`
+an indicator: ' or " or \`
 
 a statement: 
 				indicator,    text,    indicator

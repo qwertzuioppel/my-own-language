@@ -1,20 +1,19 @@
-inp,
-"*":"I",
-"IIIII":"V":,
-"VV":"X",
-"XXXXX":"L",
-"LL":"C",
-"CCCCC":"D",
-"DD":"M",
-"CCCC":"CD",
-"DCD":"CM",
-"XXXX":"XL",
-"LXL":"XC",
-"CDXC":"XD",
-"CMXC":"XM",
-"IIII":"IV",
-"VIV":"IX",
-"XLIX":"IL",
-"XCIX":"IC",
-"XDIX":"ID",
-"XMIX":"IM"
+#this is a comment.
+
+in;						#input appended to main string.
+"a":"a";				#replaces every instance of "a" with "a"
+"a":"b";				#replaces every instance of "a" with "b"
+		
+"a":[					#runs code between square brackets if "a" exists in main string
+	out;				#prints main string. also it is code inside of square brackets so it only runs if "a" exists in main string
+	]					#end of if statement.
+
+
+!"a"{					#while NOT "a" exist in main string code between curly brackets gets run
+	"b" + "c":[			#if "b" OR "c" exist in main string
+		"b":"c";
+		]
+	"c" * "d":[			#if "c" AND "d" exist in main string
+		"c","d":"ab";	#replace every instance of "c" AND every instance of "d" with "ab"
+		]
+	}
